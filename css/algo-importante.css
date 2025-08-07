@@ -1,0 +1,77 @@
+/* Estilo geral */
+body {
+    background-color: #F2F2F2;
+    color: #1B2620;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho #1B2620 #2E4034 #97A697 #F2F2F2 #D9D9D9 */
+header {
+    background-color: #2E4034;
+    color: #F2F2F2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Espaço entre as divs */
+div {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 15px;
+   background-image: linear-gradient(to right,#97A697,  #F2F2F2);
+    border-radius: 10px;
+
+}
+
+/* Vídeos menores */
+video {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+/* Botão de mensagem */
+.botao {
+    background-color: #97A697;
+    text-align: center;
+}
+
+.btn-mensagem {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+     box-shadow: 10px 10px 10px black;
+}
+
+.btn-mensagem:hover {
+    background-color: #2E4034;
+    color: #F2F2F2;
+}
+
+.btn-voltar {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #2E4034;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+  
+}
+
+/* Efeito hover */
+.btn-voltar:hover {
+  background-color: #7a5435;
+}
